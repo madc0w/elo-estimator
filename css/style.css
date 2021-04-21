@@ -1,0 +1,71 @@
+body {
+	color: #ddd;
+	font-family: Arial;
+	background: url("../img/bg.jpg");
+	background-size: 2000px 2000px;
+	font-family: Arial;
+}
+
+.chessBoard {
+	width: 400px;
+}
+
+.question {
+	margin-left: 40px;
+	margin-bottom: 40px;
+}
+
+#intro {
+	margin-bottom: 40px;
+}
+
+.infoLine {
+	font-weight: bold; 
+	background-color : #f0d9b5;
+	border-color: #b58863;
+	border-radius: 5px;
+	border-style: solid;
+	border-width: 4px;
+	color: #222;
+	margin: 5px;
+	padding: 5px;
+	width: 360px;
+	background-color: #f0d9b5;
+}
+
+.answer {
+	margin-left: 50px;
+}
+
+#ratingValue {
+	margin-top: 10px;
+	font-size: 32px;
+	text-shadow: 2px 2px #b58863;
+}
+
+#rating {
+	text-align: center;
+	font-weight: bold;
+	background-color: #f0d9b5;
+	float: top;
+	position: fixed;
+	margin-left: 480px;
+	color: black;
+	padding: 20px;
+	border-radius: 5px;
+	border-style: solid;
+	border-width: 12px;
+	border-color: #b58863;
+}
+
+button {
+	font-weight: bold;
+	border-radius: 5px;
+	background-color: #f0d9b5;
+	margin-left: 10px;
+	padding: 5px;
+}
+
+a {
+	color: #ddd;
+}

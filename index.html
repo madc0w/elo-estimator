@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<title>ELO Rating Estimator</title>
+
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="stylesheet" type="text/css" href="css/chessboard-0.3.0.min.css" />
+</head>
+<body>
+	<h1>ELO Rating Estimator</h1>
+	<hr />
+	<div id="intro">
+		Use this test to get an estimate of your ELO rating. Study each diagram for no more than five minutes, then make your move.
+		<p />
+		Each position in this page comes from real play by strong players. Beware, <b>not all of these positions are wins for the side on the move,</b> nor
+		is the best move necessarily a brilliant one. <i>Try to avoid "cheating" by thinking in terms of finding a combination: </i>there may be none
+		available. Instead, concentrate on the position, evaluate it and make the move you would play on the chess board in a real game. This will hopefully
+		yield the most precise estimate of your ELO rating.
+		<p />
+		Some of these positions are pretty easy to play, but most of them are tough. Again, remember that these are real games between strong players. Even
+		the losing side (when there was one) might have been of IM/GM strength...
+		<p />
+		You won't need special moves in these tests (like castling, en passant, or promotions).
+		<p />
+		Based on the <a href="http://www.chessmaniac.com/ELORating/ELO_Chess_Rating.shtml">Automated Chess Rating Utility</a>. Powered by <a
+			href="http://chessboardjs.com/">chessboard.js</a>.
+	</div>
+
+	<div id="rating">
+		Your ELO Rating
+		<div id="ratingValue"></div>
+	</div>
+
+	<div id="content"></div>
+</body>
+
+<script src="js/json3.min.js"></script>
+<script src="js/jquery-1.10.1.min.js"></script>
+<script src="js/prettify.js"></script>
+<script src="js/chessboard-0.3.0.min.js"></script>
+<script src="js/chess.js"></script>
+<script src="js/rater.js"></script>
+
+</html>
